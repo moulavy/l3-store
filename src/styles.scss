@@ -89,6 +89,8 @@ img {
   background: none;
   padding: 0;
   margin: 0;
+  cursor: pointer;
+  color: var(--key-color);
 
   svg {
     width: 32px;
@@ -120,11 +122,16 @@ img {
   }
 }
 
-.cart {
+.cart-link {
   position: relative;
 }
-
-.cartCounter {
+.favorite-link {
+  position: relative;
+}
+.display-none{
+  display: none;
+}
+.counter {
   position: absolute;
   right: -21px;
   top: -10px;
